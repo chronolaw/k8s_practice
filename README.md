@@ -1,1 +1,79 @@
 # k8s_practise
+
+* [Follow me to study Docker/Kubernetes](https://time.geekbang.org/column/intro/100114501)
+
+## Requirements
+
+### Host Machine
+| CPU  | Memory | Disk
+| -----|--------|-----
+| >= 2 | >= 8GB | >= 100GB
+
+## Docker
+
+* [docker](https://www.docker.com/)
+* [docker hub](https://hub.docker.com/)
+* [docker official images](https://github.com/docker-library/official-images)
+* [quay.io](https://quay.io/)
+* [bitnami](https://bitnami.com/)
+
+## Kubernetes
+
+* [kubernetes](https://kubernetes.io/zh/)
+* [yaml](https://yaml.org/)
+* [minikube](https://minikube.sigs.k8s.io/)
+* [kind](https://kind.sigs.k8s.io/)
+* [harbor](https://goharbor.io/)
+* [helm](https://helm.sh/)
+* [metrics-server](https://github.com/kubernetes-sigs/metrics-server)
+* [prometheus](https://prometheus.io/)
+* [grafana](https://grafana.com/)
+* [calico](https://www.tigera.io/project-calico/)
+* [cilium](https://cilium.io/)
+* [CNCF](https://www.cncf.io/)
+* [CKA](https://www.cncf.io/certification/cka/)
+
+## Docs
+
+* [docker](https://docs.docker.com/)
+* [docker-compose](https://docs.docker.com/compose/)
+* [kubernetes](https://kubernetes.io/zh/docs/home/)
+* [prometheus](https://prometheus.io/docs/)
+* [yaml](https://yaml.org/spec/1.2.2/)
+* [minikube](https://kubernetes.io/zh/docs/tutorials/hello-minikube/)
+* [kubectl](https://kubernetes.io/zh/docs/reference/kubectl/overview/)
+* [kubeadm](https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/)
+* [kubectl cheatsheet](https://kubernetes.io/zh/docs/reference/kubectl/cheatsheet/)
+* [kubernetes api v1.27](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/)
+* [pod](https://kubernetes.io/zh/docs/concepts/workloads/pods/)
+* [ingress](https://kubernetes.io/zh/docs/concepts/services-networking/ingress/)
+* [cni](https://github.com/containernetworking/cni)
+* [nginx-ingress-controller](https://docs.nginx.com/nginx-ingress-controller/)
+* [kong-ingress-controller](https://docs.konghq.com/kubernetes-ingress-controller/)
+* [gateway](https://gateway-api.sigs.k8s.io/)
+* [persistent-volumes](https://kubernetes.io/zh/docs/concepts/storage/persistent-volumes/)
+
+## Releases
+
+* [v1.27 release](https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release/)
+* [v1.26 release](https://kubernetes.io/blog/2022/12/09/kubernetes-v1-26-release/)
+* [v1.24 release](https://kubernetes.io/blog/2022/05/03/kubernetes-1-24-release-announcement/)
+* [v1.23 release](https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement/)
+* [v1.22 release](https://kubernetes.io/blog/2021/08/04/kubernetes-1-22-release-announcement/)
+* [v1.21 release](https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement/)
+* [v1.20 release](https://kubernetes.io/blog/2020/12/08/kubernetes-1-20-release-announcement/)
+
+## Blogs
+
+* [k8s.gcr.io Image Registry Will Be Frozen From the 3rd of April 2023](https://kubernetes.io/blog/2023/02/06/k8s-gcr-io-freeze-announcement/)
+* [don't panic kubernetes and docker](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/)
+* [Evolving Kubernetes networking with the Gateway API](https://kubernetes.io/blog/2021/04/22/evolving-kubernetes-networking-with-the-gateway-api/)
+
+## Linux
+
+* [ubuntu](https://ubuntu.com/)
+* [alpine](https://alpinelinux.org/)
+* [centos](https://www.centos.org/)
+* [fedora](https://getfedora.org/)
+
+

@@ -1,0 +1,55 @@
+# chrono @ 2023-08
+
+# kubectl apply -f crd.yml
+
+---
+
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: kong-add-resp-header-plugin
+
+plugin: response-transformer
+config:
+  add:
+    headers:
+    - Resp-New-Header:kong-kic
+
+---
+
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: kong-rate-limiting-plugin
+
+plugin: rate-limiting
+config:
+  minute: 2
+
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: kong-ing
+  annotations:
+    konghq.com/host-aliases: "kong.dev, kong.ops"
+    konghq.com/plugins: |
+        kong-add-resp-header-plugin,
+        kong-rate-limiting-plugin
+
+spec:
+  ingressClassName: kong-ink
+
+  rules:
+  - host: kong.test
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: ngx-svc
+            port:
+              number: 80
+---
